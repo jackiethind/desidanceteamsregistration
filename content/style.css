@@ -14,7 +14,10 @@ body {font-family: "Lato", sans-serif;}
 	height:300px; 
 	border:1px solid black;
 }
-
+.banner img{
+    height: 100%;
+    width: 100%;
+}
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -87,6 +90,7 @@ span.psw {
 .item {
     width: 33%;
     margin-bottom: 30px;
+    display: inline-block;
 }
 
 .content{
@@ -122,23 +126,12 @@ form{
 /*******************************************
 					Instructors
 *******************************************/
-.item {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 50%;
-}
+
 
 h2.title
 {
     text-decoration: underline;
-}
-
-h3.instructor-name {
-    margin-top: 0;
-}
-
-.instructor-bio {
-    padding: 0 20px;
+    margin-bottom: 40px;
 }
 
 h1.title {

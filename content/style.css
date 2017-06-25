@@ -4,6 +4,10 @@
 
 body {font-family: "Lato", sans-serif;}
 
+.container-fluid{
+    max-width: 1400px
+}
+
 
 /*******************************************
 				LOGIN PAGE
@@ -140,7 +144,25 @@ h1.title {
     font-family: "Lucida", "Semibold", sans-serif;
 
 }
+.media{
+    width: 300px;
+    height: 250px;
+    margin:0 auto;
+}
 
+.instructor-img{
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: 50% 50%
+}
+
+.instructor-name{
+    text-align: center;
+}
+
+.media:first-child{
+    margin-top: 30px
+}
 /*******************************************
 				REGISTER(Modal)
 *******************************************/
